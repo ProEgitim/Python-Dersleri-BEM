@@ -1,1 +1,2 @@
 print("Nasılsın")
+print("Varol")
