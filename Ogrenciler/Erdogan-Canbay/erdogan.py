@@ -1,0 +1,2 @@
+print("erdogan")
+print("canbay")
