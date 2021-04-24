@@ -13,4 +13,6 @@ liste5=[7,8,9]
 liste6=[liste3,liste4,liste5]
 print(liste6)
 
-
+demet1=(1,2,3,4,5,6,7)
+print(type(demet1))
+print(demet1[3])
