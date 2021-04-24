@@ -1,0 +1,6 @@
+ad=str(input("İsim :"))
+soyad=str(input("Soyisim:"))
+no=int(input("Numara :"))
+print("İsim: {}".format(ad))
+print("Soyisim: {}".format(soyad))
+print("Numara: {}".format(no))
