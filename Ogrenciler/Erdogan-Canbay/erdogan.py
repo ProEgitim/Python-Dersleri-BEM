@@ -1,2 +1,1 @@
-print("erdogan")
-print("canbay")
+print('erdogan canbay')
