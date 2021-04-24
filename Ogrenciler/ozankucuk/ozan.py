@@ -1,2 +1,7 @@
-print("Merhaba")
-print ("selam")
+print("selam")
+print ('merhaba')
+
+a = "nasilsin"
+
+print (a)
+
