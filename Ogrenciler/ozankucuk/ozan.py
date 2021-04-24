@@ -1,8 +1,8 @@
 a=int(input("a:"))
 b=int(input("b:"))
-c=int(input("c:"))8
+c=int(input("c:"))
 sonuc=a*b*c
-print("{} {} {}".format(a,b,c,sonuc))
+print("{}x {}x{}={}".format(a,b,c,sonuc))
 
 
 
