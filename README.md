@@ -1,1 +1,1 @@
-# Python-Dersleri-BEM 46456
+# Python-Dersleri
