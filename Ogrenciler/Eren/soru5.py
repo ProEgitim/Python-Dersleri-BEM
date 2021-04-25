@@ -1,0 +1,6 @@
+print("Kullanıcıdan İstenilen Bilgileri(Ad,SoyAd,Numara) Bilgilerini Alt Alta Yazdırma İşlemi.")
+print("---------------------------------------------------------------------------------------")
+a=input("Adınızı Giriniz : ")
+b=input("Soy Adınızı Giriniz : ")
+c=int(input("Numaranızı Giriniz : "))
+print(a,b,c,sep="\n")
