@@ -8,3 +8,5 @@ print("b= ",b["sayilar"]["iki"])
 print(b.items())
 print(b.keys())
 print(b.values())
+
+print(type(b))
