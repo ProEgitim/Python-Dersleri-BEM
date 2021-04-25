@@ -1,0 +1,6 @@
+isim=str(input("İsminizi girermisiniz?: "))
+soisim=str(input("Soyadınızı girer misiniz?: "))
+tel=int(input("Telefon numaranızı girermisiniz?: "))
+print(isim)
+print(soisim)
+print(tel)
