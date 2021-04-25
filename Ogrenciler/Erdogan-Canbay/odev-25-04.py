@@ -1,5 +1,5 @@
 """
-kullanıcının girdiği key:value ye göre bir sözlük oluşturan programı oluşturun
+Odev_25 nisan = kullanıcının girdiği key:value girdilerine göre bir sözlük programı oluşturun.
 """
 Anahtar=str(input("Key değeri giriniz.."))
 Deger=str(input("Value değerini giriniz.."))
