@@ -35,6 +35,5 @@ elif(sayi1<55):
     print("Aldıgınız Harf Notu: ")
     print(sayi1)
     print("FF")
-else:
     print("Kaldınız")
 
