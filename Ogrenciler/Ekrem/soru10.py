@@ -1,5 +1,0 @@
-yaricap=(input("dairenin yarıçapı:"))
-çevre=(2*3.14*float(yaricap))
-alan=(3.14*float(yaricap)*float(yaricap))
-print("dairenin çevresi:",çevre)
-print("dairenin alanı:",alan)
