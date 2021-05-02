@@ -1,5 +1,5 @@
-yaricap=(input("dairenin yarıçapı:"))
-çevre=(2*3.14*float(yaricap))
-alan=(3.14*float(yaricap)*float(yaricap))
-print("dairenin çevresi:",çevre)
-print("dairenin alanı:",alan)
+sozluk = {}
+kelime = input('Kelimeyi girin')
+anlam = input('Kelimenin anlamını girin')
+sozluk[kelime]=anlam
+print(sozluk)
