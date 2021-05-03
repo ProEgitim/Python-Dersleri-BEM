@@ -1,25 +1,41 @@
-print("Hesap Makinesi")
-print("-------------------------")
-print("Lütfen yapmak istediğiniz işlemi seçiniz")
-print("Toplama İşlemi için 1'e basın")
-print("Çıkartma İşlemi için 2'y2 basın")
-print("Çarpma İşlemi için 3'e basın")
-print("Bölme İşlemi için 4'e basın")
-islem = int(input("Lütfen işlem numarasınız giriniz: "))
-sayi1=int(input("Lütfen ilk sayıyı giriniz: "))
-sayi2=int(input("lütfen ikinci sayıyı giriniz: "))
+print("\n-------------------------")
+print("\nHesap Makinesi")
+print("\n-------------------------")
+print("\nLütfen yapmak istediğiniz işlemi seçiniz")
+print("\nToplama İşlemi için lütfen 1'e basınız")
+print("Çıkartma İşlemi için lütfen 2'ye basınız")
+print("Çarpma İşlemi için lütfen 3'e basınız")
+print("Bölme İşlemi için lütfen 4'e basınız")
+islem = int(input("\nLütfen işlem numarasınız giriniz: "))
+
+    
+
 if (islem == 1):
+    sayi1=int(input("\nLütfen ilk sayıyı giriniz: "))
+    sayi2=int(input("\nlütfen ikinci sayıyı giriniz: "))
     sonuc = sayi1 + sayi2
-    print("{} + {} = {}".format(sayi1,sayi2,sonuc))
+    print("\n{} + {} = {}".format(sayi1,sayi2,sonuc))
+
+    
 elif (islem == 2):
+    sayi1=int(input("\nLütfen ilk sayıyı giriniz: "))
+    sayi2=int(input("\nlütfen ikinci sayıyı giriniz: "))
+    
     sonuc = sayi1 - sayi2
-    print("{} - {} = {}".format(sayi1,sayi2,sonuc))
+    print("\n{} - {} = {}".format(sayi1,sayi2,sonuc))
+    
 elif (islem == 3):
+    sayi1=int(input("\nLütfen ilk sayıyı giriniz: "))
+    sayi2=int(input("\nlütfen ikinci sayıyı giriniz: "))
     sonuc = sayi1 * sayi2
-    print("{} x {} = {}".format(sayi1,sayi2,sonuc))
+    print("\n{} x {} = {}".format(sayi1,sayi2,sonuc))
+    
 elif (islem == 4):
+    sayi1=int(input("\nLütfen ilk sayıyı giriniz: "))
+    sayi2=int(input("\nlütfen ikinci sayıyı giriniz: "))
     sonuc = sayi1 / sayi2
-    print("{} / {} = {}".format(sayi1,sayi2,sonuc))
+    print("\n{} / {} = {}".format(sayi1,sayi2,sonuc))
+    
 else:
-    print("Lütfen İstenilen sayıları giriniz")
+    print("\nLütfen sizden istenilen aralıklarda bir sayı giriniz.")
         
