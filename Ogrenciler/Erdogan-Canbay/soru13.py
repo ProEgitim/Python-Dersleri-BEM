@@ -3,8 +3,9 @@ Kullanıcıdan alınan iki sayı ile yine kullanıcının seçtiği işlemi yapa
 """
 
 sayi1=int(input("1.sayiyi giriniz.."))
-sayi2=int(input("2.sayiyi giriniz.."))
 islem=input("işlemi seçiniz + - * / ..")
+sayi2=int(input("2.sayiyi giriniz.."))
+
 
 if islem == "+":
     sonuc=sayi1+sayi2
