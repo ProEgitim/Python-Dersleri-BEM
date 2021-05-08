@@ -9,7 +9,7 @@ BÖLME İŞLEMİ   YAPMAK İÇİN 4 'e BASIN.
 
 """)
 
-islem = str(input("İşlem seçiniz: "))
+islem = input("İşlem seçiniz: ")
 
 if islem == "1":
     sayi1 = int(input("sayi1 giriniz: "))
@@ -28,4 +28,4 @@ elif islem == "4":
     sayi2 = int(input("sayi2 giriniz: "))
     print("Sonuç:", sayi1/sayi2)
 else:
-    print("geçersiz işlem girdiniz...")2
+    print("geçersiz işlem girdiniz...")
