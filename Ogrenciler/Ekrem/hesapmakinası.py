@@ -1,7 +1,3 @@
-"""
-Kullanıcıdan alınan iki sayı ile yine kullanıcının seçtiği işlemi yapacak hesap makinası programını yazınız.
-"""
-
 sayi1=int(input("1.sayiyi giriniz.."))
 islem=input("işlemi seçiniz + - * / ..")
 sayi2=int(input("2.sayiyi giriniz.."))
