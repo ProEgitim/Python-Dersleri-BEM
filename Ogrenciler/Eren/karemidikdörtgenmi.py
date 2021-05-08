@@ -11,7 +11,7 @@ if a==b==c==d:
     
     print("Sonuc : ",kare)
 
-elif a==b and c==d:
+elif (a==c and b==d) or (a==b and c==d) or (a==d and c==b):
     print("Sonuc : ",dikdörtgen)
 
 else:
