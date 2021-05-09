@@ -30,7 +30,8 @@ while (dongu):
         
         print("Lütfen sizden istenen işlemlerden birini seçiniz..!")
     
-    devam = input("Devam etmek isterseniz [Evet : e, Hayır : h"]:)
+    devam = input("Devam etmek isterseniz [Evet : e, Hayır : h]")
+
 
     if (devam.lower() == "e"):
         dongu = True
