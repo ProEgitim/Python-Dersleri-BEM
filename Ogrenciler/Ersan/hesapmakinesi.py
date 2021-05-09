@@ -1,3 +1,5 @@
+
+
 print("\n-------------------------")
 print("\nHesap Makinesi")
 print("\n-------------------------")
@@ -11,10 +13,10 @@ islem = int(input("\nLütfen işlem numarasınız giriniz: "))
     
 
 if (islem == 1):
-    sayi1=int(input("\nLütfen ilk sayıyı giriniz: "))
-    sayi2=int(input("\nlütfen ikinci sayıyı giriniz: "))
-    sonuc = sayi1 + sayi2
-    print("\n{} + {} = {}".format(sayi1,sayi2,sonuc))
+        sayi1=int(input("\nLütfen ilk sayıyı giriniz: "))
+        sayi2=int(input("\nlütfen ikinci sayıyı giriniz: "))
+        sonuc = sayi1 + sayi2
+        print("\n{} + {} = {}".format(sayi1,sayi2,sonuc))
 
     
 elif (islem == 2):
@@ -38,4 +40,4 @@ elif (islem == 4):
     
 else:
     print("\nLütfen sizden istenilen aralıklarda bir sayı giriniz.")
-        
+    
