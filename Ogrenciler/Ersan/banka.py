@@ -11,26 +11,23 @@ Yapabileceğiniz İşlemler
 Programdan q ile çıkabilirsiniz
 """)
 
-i = 1000
+bakiye = 1000
 
-while(True):
+while True:
     islem= input("Lütfen yapmak istediğiniz işlem numarasını giriniz: ")
-
     if (islem == "1"):
-        print(i)
-        continue
+        print(bakiye)
     elif (islem == "2"):
         para=int(input("Yatıracağınız para miktarını giriniz:"))
-        i = i+para
-        print(i)
+        bakiye = bakiye+para
+        print(bakiye)
     elif (islem == "3"):
         para=int(input("Lütfen çekmek istediğiniz miktarı giriniz: "))
-        
-        if (i == 0):
+        if (bakiye - miktar < 0 ):
             print("para yetersiz")
             continue
-        i = i-para
-        print(i)
+        bakiye = bakiye-para
+        print(bakiye)
     elif (islem == "q"):
         print("Programdan çıkılıyor.")
         break
