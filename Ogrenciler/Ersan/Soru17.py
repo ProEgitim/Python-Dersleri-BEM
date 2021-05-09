@@ -1,5 +1,6 @@
 
-while (True):
+dongu = True
+while (dongu):
     sayi1 = int(input("Lütfen Birinci Sayıyı Giriniz: "))
     sayi2 = int(input("Lütfen İkinci Sayıyı Giriniz: "))
     print("""LÜtfen yapmak istediğiniz İşlemi Seçiniz
@@ -11,8 +12,8 @@ while (True):
 
     if (islem == 1):
             
-            print("{} + {} = {} dır.".format(sayi1,sayi2, sayi1 + sayi2)
-
+        print("{} + {} = {} dır.".format(sayi1,sayi2, sayi1 + sayi2)
+        
     elif (islem == 2):
         
         print("{} ile {} 'nin farkı {} dır.".format(sayi1,sayi2, sayi1 - sayi2)
