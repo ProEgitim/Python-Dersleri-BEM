@@ -1,11 +1,18 @@
-kullanici=input("kullanici adi giriniz ")
-sifre=input("sifre giriniz ")
-
-if kullanici == "Erdogan":
-    if sifre == "123":
-        print("Hoşgeldiniz..")
-    else:
-        print("Şifre yanlış")
-else:
-    print("hatalı giriş")
+hak=3
+a=0
+while(hak):
+    kullanici=input("kullanici adi giriniz ")
+    sifre=input("sifre giriniz ")
     
+    if kullanici == "Erdogan":
+        if sifre == "123":
+            print("Hoşgeldiniz..")
+            hak=0
+        else:
+            print("Şifre yanlış")
+    else:
+        print("hatalı giriş son hak",hak-1)
+        hak-=1
+        a+=1
+if a==3:
+    print("hakkınız doldu")
