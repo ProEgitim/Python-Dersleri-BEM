@@ -12,19 +12,19 @@ while (dongu):
 
     if (islem == 1):
             
-        print("{} + {} = {} dır.".format(sayi1,sayi2, sayi1 + sayi2)
+        print("{} + {} = {} dır.".format(sayi1,sayi2, sayi1 + sayi2))
         
     elif (islem == 2):
         
-        print("{} ile {} 'nin farkı {} dır.".format(sayi1,sayi2, sayi1 - sayi2)
+        print("{} ile {} 'nin farkı {} dır.".format(sayi1,sayi2, sayi1 - sayi2))
     
     elif (islem == 3):
         
-        print("{} ile {} 'nin çarpımı {} dır.".format(sayi1,sayi2, sayi1 * sayi2)
+        print("{} ile {} 'nin çarpımı {} dır.".format(sayi1,sayi2, sayi1 * sayi2))
     
     elif (islem == 4):
         
-        print("{} ile {} 'nin bölümü {} dır.".format(sayi1,sayi2, sayi1 / sayi2)
+        print("{} ile {} 'nin bölümü {} dır.".format(sayi1,sayi2, sayi1 / sayi2))
     
     else:
         
