@@ -8,18 +8,30 @@ while (dongu):
     Çıkartma için 2
     Çarpma için   3
     Bölme için    4 """)
-    islem = input("LÜtfen yapmak istediğiniz işlemi seçiniz: ")
-    if (islem == "1"):  
+    islem = (input("LÜtfen yapmak istediğiniz işlemi seçiniz: "))
+
+    if (islem == 1):
+            
         print("{} + {} = {} dır.".format(sayi1,sayi2, sayi1 + sayi2))
-    elif (islem == "2"):
+        
+    elif (islem == 2):
+        
         print("{} ile {} 'nin farkı {} dır.".format(sayi1,sayi2, sayi1 - sayi2))
-    elif (islem == "3"):
+    
+    elif (islem == 3):
+        
         print("{} ile {} 'nin çarpımı {} dır.".format(sayi1,sayi2, sayi1 * sayi2))
-    elif (islem == "4"):
+    
+    elif (islem == 4):
+        
         print("{} ile {} 'nin bölümü {} dır.".format(sayi1,sayi2, sayi1 / sayi2))
+    
     else:
+        
         print("Lütfen sizden istenen işlemlerden birini seçiniz..!")
-    devam = input("Devam etmek isterseniz [Evet : e, Hayır : h]:")
+    
+    devam = input("Devam etmek isterseniz [Evet : e, Hayır : h]")
+
 
     if (devam.lower() == "e"):
         dongu = True
@@ -27,3 +39,4 @@ while (dongu):
         dongu = False
     else:
         print("LÜtfen seçimlerinizi kontrol ediniz..!")
+    
