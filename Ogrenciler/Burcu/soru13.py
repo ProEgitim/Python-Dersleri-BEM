@@ -1,5 +1,5 @@
 
-secim=input("İşlem seçin: (a=+,b=-,c=*,d=/)")
+secim=input("Sayı seçin: (a,b,c,d)")
 sayi1=int(input("1.sayı: "))
 sayi2=int(input("2.sayı: "))
 
