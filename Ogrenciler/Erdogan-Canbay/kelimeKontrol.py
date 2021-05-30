@@ -5,11 +5,17 @@ def kontrol(kelime):
 
 giris=input("kelimeyi giriniz.. ")
 
-bulundu =kontrol(giris)
-print(bulundu)
+listem =kontrol(giris)
+print(listem)
 
-for i in bulundu:
-   if(i == "ve"):
-       print("ve bulundu")
-   elif(i != "ve"):
-        print("ve bulunamadı")
+for i in listem:
+    if(i == "ve"):
+        bulundu=True
+        break
+    else:
+        bulundu=False
+
+if(bulundu):
+    print("ve bulundu")
+else:
+    print("ve bulunamadı")
