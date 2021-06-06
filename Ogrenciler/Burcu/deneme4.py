@@ -11,4 +11,4 @@ elif (selectx=="3"):
 elif (selectx=="4"):  
     print("sonuç:", module1.bolme(firstNumber,secondNumber))
 else:
-    print("Yanlış seçim yaptınız.") 
+    print("Yanlış seçim yaptınız.")  
