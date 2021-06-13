@@ -1,10 +1,11 @@
 class Square(object):
     side = 6
-
+    area = 0
+   
     def area(self):
-        area = self.side * self.side
-        print(area)
+        self.area = self.side * self.side
+        print("Area:", self.area)
 
 s1 = Square()
 print(s1.side)
-((s1.area))
+print(s1.area())
