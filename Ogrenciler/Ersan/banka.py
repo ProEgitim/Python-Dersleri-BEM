@@ -23,7 +23,7 @@ while True:
         print(bakiye)
     elif (islem == "3"):
         para=int(input("Lütfen çekmek istediğiniz miktarı giriniz: "))
-        if (bakiye - miktar < 0 ):
+        if (bakiye - para < 0 ):
             print("para yetersiz")
             continue
         bakiye = bakiye-para
