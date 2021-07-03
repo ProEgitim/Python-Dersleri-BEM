@@ -8,18 +8,19 @@ file.close()"""
 """"file = open ("file1.txt", "r" , encoding="utf-8")
 file.close()"""
 
-file = open ("file1.txt", "r" , encoding="utf-8")
+file = open ("file1.txt", "a" , encoding="utf-8")
 
-file.write("Homo sapiens")
-file.write("Sandman")
-file.write("Sıradan Zaferler")
-file.write("İyimser olmayan Umut")
-file.write("blink")
+file.write("Homo sapiens\n")
+file.write("Sandman\n")
+file.write("Sıradan Zaferler\n")
+file.write("İyimser olmayan Umut\n")
+file.write("blink\n")
 
 print(file)
 
 for i in file:
-    print(i, end="    ")
+    print(i)
+file.close()
 
 """ Bozuk bir şekilde alt alta sıralıyor"""
 
