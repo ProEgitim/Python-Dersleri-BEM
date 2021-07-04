@@ -12,7 +12,8 @@ import matplotlib.pyplot as plt
 ###plt.tight_layout()
 ###plt.show()
 
-x = range(1, 2)
+x=np.arange(1,6)
+y=np.arange(2,11,2)
 
 fig = plt.figure()
 axes1=fig.add_axes([0.1,0.1,0.8,0.8])
@@ -20,4 +21,5 @@ axes1.plot(x,x**2,color="red",lw=9,ls="-.")
 
 plt.show()
 
-### neden çalışmadı
+### X herzaman 2 Y herzaman ^değer mi alıyor neye göre bu değerleri veriyoruz
+#  ben başka rakamlar yazdığımda çıkmıyor.
