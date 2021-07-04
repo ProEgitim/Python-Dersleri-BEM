@@ -5,7 +5,7 @@ x = np.arange(51)
 y = np.arange(0,101,2)
 z = x ** 3
 
-plt.plot(x,y)
+plt.plot(x,y,z)
 
 fig = plt.figure(figsize=(8,6))
 
