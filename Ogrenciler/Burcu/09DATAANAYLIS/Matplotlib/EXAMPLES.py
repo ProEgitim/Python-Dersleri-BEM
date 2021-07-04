@@ -9,5 +9,7 @@ y = list(range(-10, 0))
 
 plt.plot(x, y)
 
+### % işareti kullandığımda çalışmıyor/ uyarı veriyor
+
 
 
