@@ -1,0 +1,24 @@
+{% extends 'todo_app/base.html' %}
+
+{% block title %}
+Hakkında
+{% endblock title %}
+
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="text-center"> 
+        <h1 class="display-4">TODO-APP</h1>
+        <p class="lead">Kolayca yapılacaklar listesi oluştur.</p>
+        <p class="lead">Sağ üsteki bölümden</p>
+        <p class="lead">yada Todo oluştur bağlantısından</p>
+        <p class="lead">yeni todo ekleyebilir</p>
+        <p class="lead">bitenleri güncelleyebilir</p>
+        <p class="lead">yada silebilirsiniz.</p>
+        <a class="btn btn-success" href="{% url 'create' %}" role="button">Todo Oluştur</a>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
